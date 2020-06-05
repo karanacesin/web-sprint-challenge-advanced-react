@@ -30,13 +30,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+  create a 'use' hook file and build a class component that takes useState and uses stateful logic. after done import the file where you need it
+
 2. Describe the different phases of the component lifecycle.
+
+  mounting - the start of the lifecycle
+  updating - changes during the lifecycle
+  unmounting - the end of the lifecycle
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+  componentWillMount - inital data is rendered
+  componentWillUpdate - new data is fetched and rendered
+  componentWillUnmount - clean up event listeners
+
 4. Define stateful logic.
 
+  any code that uses state
+
 5. Describe how to test a React component with React Testing Library.
+
+  import objects from the testing library and build testing components to render the file you are testing with arugments related to the field that you are testing
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
